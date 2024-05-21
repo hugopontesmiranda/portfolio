@@ -11,32 +11,36 @@ import MailIcon from '@/components/icons/Mail.astro'
 	description="Discover the portfolio of Hugo Pontes Miranda, a talented full-stack developer and IoT enthusiast based in Badajoz, Spain. Explore my innovative projects, versatile skills, and connect with me on LinkedIn and GitHub. Available for new opportunities."
 	keywords="Hugo Pontes Miranda, Full-Stack Developer, IoT Enthusiast, Software Developer, Web Developer, Developer Portfolio, Badajoz, Spain, LinkedIn, GitHub, Hiring, New Opportunities"
 >
-	<main>
+	<main class="px-4">
 		<section class="mx-auto w-full gap-x-4 py-44 pb-4 lg:w-[740px]">
 			<img
-				class="mx-auto mb-4 size-24 rounded-full"
+				class="mx-auto mb-4 size-24 rounded-full md:size-28 lg:size-32"
 				src="https://avatars.githubusercontent.com/u/12600504?v=4"
 				alt="Hugo Pontes Miranda"
 			/>
-			<h1 class="flex flex-row justify-center pb-10 text-5xl font-bold">Hi, i'm Hugo</h1>
-			<h2 class="text-wrap text-center text-2xl">
+			<h1
+				class="flex flex-row justify-center pb-6 text-3xl font-bold md:text-4xl lg:pb-10 lg:text-5xl"
+			>
+				Hi, I'm Hugo
+			</h1>
+			<h2 class="text-wrap text-center text-xl md:text-2xl lg:text-3xl">
 				<span class="text-yellow-200/90">Full-stack developer and IoT enthusiast</span>.
 				<span class="text-red-100/90">Based in Badajoz, Spain</span>.
 			</h2>
-			<h2 class="mx-auto w-4/5 text-wrap text-center text-lg opacity-80">
+			<h2 class="mx-auto mt-1 w-4/5 text-wrap text-center opacity-80 md:text-lg lg:mt-4 lg:text-xl">
 				Always excited to explore new horizons and deepen my knowledge.
 			</h2>
 
-			<nav class="mt-8 flex justify-center gap-x-4">
+			<nav class="mt-6 flex flex-wrap justify-center gap-4 lg:mt-10">
 				<SocialPill href="https://www.linkedin.com/in/hugopontesmiranda/">
-					<LinkedInIcon class="size-6" />
+					<LinkedInIcon class="size-4 lg:size-6" />
 					LinkedIn
 					<SocialPill href="https://github.com/hugopontesmiranda">
-						<GithubIcon class="size-6" />
+						<GithubIcon class="size-4 lg:size-6" />
 						Github
 					</SocialPill>
 					<SocialPill href="mailto:hugopontesmiranda.xyz">
-						<MailIcon class="size-6" />
+						<MailIcon class="size-4 lg:size-6" />
 						hugopontesmiranda@gmail.com
 					</SocialPill>
 				</SocialPill>
